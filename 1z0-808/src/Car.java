@@ -1,5 +1,4 @@
 /*
- * NOT COMPLETE
  * Topic : Working with Inheritance 
  * Code: 04
  * 
