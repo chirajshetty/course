@@ -14,9 +14,7 @@ public class Question_26 {
 			System.out.print(arr[i] + " ");
 			i++;
 		} while(i < arr.length + 1 );
-
 	}
-
 }
 
 
@@ -41,10 +39,14 @@ public class Question_26 {
  * 
  * 
  * Explanation:
- * 
- * 
+ * The do while loop is an exit controlled loop. 
+ * The length of the array is 4 but the while condition is set when i<5.
+ * At the last iteration the value of i is 4 and since the index is out of bound
+ * so the array throws a Runtime Exception of ArrayindexOutOfBoundsException.
+ *   
  * 
  * Additional Explanation: 
+ * 
  */
 
 

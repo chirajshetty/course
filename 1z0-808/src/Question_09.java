@@ -1,7 +1,6 @@
 /*
- * NOT COMPLETED 
- * Topic : 
- * Code: 
+ * Topic : Using loop Construct
+ * Code: 03
  * 
  */
 public class Question_09 {
@@ -43,8 +42,19 @@ public class Question_09 {
  * The index of an array in java starts from zero.
  * Therefore the following code fragment compiles to produce the output 135.
  * 
- * Additional Explanation: 
+ * The index of the arr is :
+ * { 1, 2, 3, 4, 5 }
+ *   0  1  2  3  4
  * 
+ * Additional Explanation: 
+ * The index of the a[] is :
+ * { 1, 2, 3, 4, 5 }
+ *   0  1  2  3  4
+ *   
+ *   
+ *   The loop : for(int i=0 ; i<5; i=i+2) gives out : 0, 2, 4 
+ *   
+ *   
  */
 
 

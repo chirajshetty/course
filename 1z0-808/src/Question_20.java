@@ -1,7 +1,6 @@
 /*
- * NOT COMPLETED 
- * Topic : 
- * Code: 
+ * Topic : Using loop constructs 
+ * Code: 03
  * 
  */
 
@@ -14,7 +13,6 @@ public class Question_20 {
 			System.out.print(i + " ");
 		}
 	}
-
 }
 
 
@@ -39,8 +37,13 @@ public class Question_20 {
  * 0 2 4 6
  * 
  * Explanation:
+ * It is simple question,
+ * The for loop can be represented as :
+ * for(i = 0; i<8 ; i=i+2)
+ * which set i as 0,2,4,6 through its iteration.
  * 
  * 
  * Additional Explanation: 
+ * for Loop 
  */
 

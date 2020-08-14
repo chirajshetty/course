@@ -1,7 +1,6 @@
 /*
- * NOT COMPLETED 
- * Topic : 
- * Code: 
+ * Topic : Using Loop Constructs 
+ * Code: 03
  * 
  */
 
@@ -38,8 +37,11 @@ public class Question_16 {
  * 5 	
  * 
  * Explanation:
- * The condition n == 0 is false in the first loop. 
+ * This is trick question which assumes to miss the details of the question.
+ * The condition n == 0 is false in the first loop itself. So the output is 5. Option A is correct .
+ * The do while loop is an exit controlled loop an prints atleast once if the condition is false.
  * 
  * Additional Explanation: 
+ * Difference between while and do while loop .
  */
 

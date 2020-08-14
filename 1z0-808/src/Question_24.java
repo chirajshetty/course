@@ -1,7 +1,6 @@
 /*
- * NOT COMPLETED 
- * Topic : 
- * Code: 
+ * Topic : Creating and using arrays / Using loop constructs
+ * Code: 08 / 03
  * 
  */
 
@@ -46,10 +45,20 @@ public class Question_24 {
  * 
  * 
  * Explanation:
+ * This is tricky question which checks your understanding on the usage of break and continue.
+ * When the break statement is encountered inside a loop, the loop is immediately terminated and the program control resumes at the next statement following the loop.
+ * The continue keyword can be used in any of the loop control structures. It causes the loop to immediately jump to the next iteration of the loop. 
  * 
+ * So in this question there is two for loop.
+ * The 'break' is associated with the second for loop and the 'continue' is associated with the first.
  * 
+ * The 2D array has two rows. Variable i denotes the rows and j the columns. 
+ * The if condition in the second for loop check whether the element is 'Q' or not.
+ * In the first row when j reaches to index of 'Q' it calls the 'break' exiting the second loop and missing the index of 'R'.
+ * Therefore the output is --> P Q S T .   
  * 
  * Additional Explanation: 
+ * https://www.tutorialspoint.com/How-to-use-break-and-continue-statements-in-Java
  */
 
 

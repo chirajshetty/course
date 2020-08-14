@@ -1,7 +1,6 @@
 /*
- * NOT COMPLETED 
- * Topic : 
- * Code: 
+ * Topic : Using Operators and Decision Constructors
+ * Code: 02
  * 
  */
 

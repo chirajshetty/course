@@ -1,5 +1,4 @@
 /*
- * NOT COMPLETE
  * Topic : Handling Exception
  * Code: 010
  * 
@@ -50,6 +49,12 @@ public class Question_05 {
  * str: 1234 num: 5678
  * 
  * Explanation:
- *  
- * Additional Explanation: 
+ * The variable str in the try block is a local variable.
+ * The Scope of Local variables is only within the methods/blocks/constructors in which they are declared or defined and are destroyed after the execution of it.  
+ * 
+ * Therefore variable str called in line --> System.out.print("str: 	"+str+"	num:	"+num);
+ * calls the instance variable and not the local variable in the try block.
+ * 
+ * Additional Explanation:
+ * https://www.tutorialspoint.com/why-variables-defined-in-try-cannot-be-used-in-catch-or-finally-in-java#:~:text=Variables%20in%20try%20block,in%20a%20block%2C%20outside%20it. 
  */

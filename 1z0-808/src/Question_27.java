@@ -43,13 +43,12 @@ public class Question_27 {
  * NullPointerException
  *   
  * Answer : 
- * a)
- *  5 6 7 8 followed by ArrayindexOutOfBoundsException
- * 
- * 
+ * d)
+ * NullPointerException
+ *  
  * Explanation:
- * 
- * 
+ *  
  * 
  * Additional Explanation: 
+ * 
  */

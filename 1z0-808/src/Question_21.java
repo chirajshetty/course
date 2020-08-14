@@ -1,7 +1,6 @@
 /*
- * NOT COMPLETED 
- * Topic : 
- * Code: 
+ * Topic : Working with Selected classes from the Java API
+ * Code: 05 
  * 
  */
 
@@ -47,8 +46,8 @@ public class Question_21 {
  * 0 2 4 6
  * 
  * Explanation:
- * LocalDate.of(8, 29, 2020);
- * LocalDate.of(int year, int month, int DayOfMonth) format which does not match.
+ * The line --> LocalDate date2 = LocalDate.of(8, 29, 2020); has syntax error.
+ * LocalDate.of(int year, int month, int DayOfMonth) format which does not match with the above line.
  * 
  * 
  * 

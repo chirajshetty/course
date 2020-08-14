@@ -1,7 +1,6 @@
 /*
- * NOT COMPLETED 
- * Topic : 
- * Code: 
+ * Topic : Working with Inheritance 
+ * Code: 04 
  * 
  */
 
@@ -69,9 +68,12 @@ public class Question_10 {
  * Intel 8 LED
  * 
  * Explanation:
- * 
+ * The code compiles and runs without any issue, so options C,D,E are incorrect. 
+ * Since the instance variables are predefined, therefore the output of l1 will be - Intel 4 LED.
+ * So option B is also incorrect. 
  * 
  * Additional Explanation: 
+ * This is a simple case of inheritance where Laptop extends Computer. The object Laptop thus created has access to instance variables of Computer.
  * 
  */
 
