@@ -4,17 +4,17 @@
  * Code: 08
  */
 
-public class Question_36 {
-
-	public static void main(String[] args) {
-		/* insert code here */
-		arr[0] = 20 ;
-		arr[1] = 30 ;
-		arr[2] = 40 ;
-		System.out.println(array[0]+":"+array[1]+":"+array[2]);
-	}
-
-}
+//public class Question_36 {
+//
+//	public static void main(String[] args) {
+//		/* insert code here */
+//		arr[0] = 20 ;
+//		arr[1] = 30 ;
+//		arr[2] = 40 ;
+//		System.out.println(array[0]+":"+array[1]+":"+array[2]);
+//	}
+//
+//}
 
 /*
  * Which of the follwoing options enables the code to compile?
