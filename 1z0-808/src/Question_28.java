@@ -1,7 +1,7 @@
 /*
  * NOT COMPLETED 
- * Topic : 
- * Code: 
+ * Topic : Handling Exception
+ * Code: 010
  * 
  */
 
@@ -24,9 +24,7 @@ public class Question_28 {
 			System.out.println("Caught a Exception ");
 		}
 		System.out.println("Ready");
-
 	}
-
 }
 
 /*
@@ -53,8 +51,21 @@ public class Question_28 {
  * 
  * 
  * Explanation:
+ * The arraylist created here is non-generic empty arraylist. 
  * 
  * 
  * 
  * Additional Explanation: 
+ * 
+ * Java collection framework was non-generic before JDK 1.5. Since 1.5, it is generic.
+ * Java new generic collection allows you to have only one type of object in a collection. Now it is type safe so typecasting is not required at runtime.
+ * Let's see the old non-generic example of creating java collection.
+ * 
+ * ArrayList list=new ArrayList();//creating old non-generic arraylist  
+ * 
+ * Let's see the new generic example of creating java collection.
+ * 
+ * ArrayList<String> list=new ArrayList<String>();//creating new generic arraylist  
+ * 
+ * In a generic collection, we specify the type in angular braces. Now ArrayList is forced to have the only specified type of objects in it. If you try to add another type of object, it gives compile time error.
  */
