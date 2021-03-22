@@ -1,3 +1,4 @@
+package _07;
 /*
  * Topic : Working with Data Types 
  * Code: 07
@@ -6,21 +7,21 @@
 
 public class Question_01 {
 
-	public static void doSum(Integer x, Integer y) {
+	public static void doAdd(Integer x, Integer y) {
 		System.out.println("Integer sum is "+(x+y));
 	}
 
-	public static void doSum(double x, double y) {
+	public static void doAdd(double x, double y) {
 		System.out.println("Double sum is "+(x+y));
 	}
 
-	public static void doSum(float x, float y) {
+	public static void doAdd(float x, float y) {
 		System.out.println("Float sum is "+(x+y));
 	}
 
 	public static void main(String[] args) {
-		doSum(10, 20);
-		doSum(10.0, 20.0);
+		doAdd(10, 20);
+		doAdd(10.0, 20.0);
 	}
 
 }
@@ -49,15 +50,23 @@ public class Question_01 {
  * Float sum is 30.0
  * Double sum is 30.0
  * 
+ * Output : 
+ * 5 6 7 8 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+	at Question_26.main(Question_26.java:14)
+ * 
  * Explanation: 
  * This is an example of Method Overloading:
  * 
- * The first line doSum(10, 20) in the main method has 'int'(Primitive Type) arguments but the first  
+ * The first line doAdd(10, 20) in the main method has 'int'(Primitive Type) arguments but the first  
  * method calls 'Integer'(reference Type). 
  * Since there is no integer argument  method it finds the next through 'type promotion' and finds float argument method.
  * 
- * The second line doSum(10.0, 20.0) in the main method has double arguments and therefore calls the doSum(double x, double y) method.
+ * The second line doAdd(10.0, 20.0) in the main method has double arguments and therefore calls the doAdd(double x, double y) method.
  * 
  * Additional Explanation: 
- * to call doSum(float x, float y) method we need to specify doSum(10.0f, 20.0f)
+ * to call doAdd(float x, float y) method we need to specify doAdd(10.0f, 20.0f)
+ * 
+ * Source: 
+ * Actual Test 219
+ * 
  */

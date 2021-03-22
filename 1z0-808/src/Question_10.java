@@ -75,6 +75,8 @@ public class Question_10 {
  * Additional Explanation: 
  * This is a simple case of inheritance where Laptop extends Computer. The object Laptop thus created has access to instance variables of Computer.
  * 
+ * Source :
+ * Actual Test 7  
  */
 
 

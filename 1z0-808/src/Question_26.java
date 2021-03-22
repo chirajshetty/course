@@ -1,7 +1,7 @@
 /*
  * NOT COMPLETED 
- * Topic : 
- * Code: 
+ * Topic : 03
+ * Code: Using loops 
  * 
  */
 

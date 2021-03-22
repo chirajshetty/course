@@ -9,8 +9,8 @@ public class Question_04 {
 		Short t1 = 1200;
 		Integer t2 = 400;
 		Long t3 = (long) t1 + t2; // line 1 
-		//String t4 = (String) (t3 * t2); // line 2
-		//System.out.println("Sum is : " + t4);
+//		String t4 = (String) (t3 * t2); // line 2
+//		System.out.println("Result is : " + t4);
 	}
 
 }
@@ -19,7 +19,7 @@ public class Question_04 {
  * What is the result of the following program?
  * 
  * a)
- * Sum is 1600
+ * Result is 1600
  * 
  * b)
  * Compilation fails on line 1
@@ -38,6 +38,13 @@ public class Question_04 {
  * c)
  * Compilation Error on line 2
  * 
+ * Output: 
+ * Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	Cannot cast from long to String
+
+	at Question_04.main(Question_04.java:12)
+ * 
+ * 
  * Explanation:
  * long is a primitive datatype and cannot be casted into String which is Object(or Non-Primitive) DataType.
  * The following is a compilation error since the error at the time of compilation.
@@ -46,4 +53,7 @@ public class Question_04 {
  * Additional Explanation: 
  * ClassCastException is a runtime exception raised in Java when we try to improperly cast a class from one type to another. 
  * In this case it is not a runtime exception but a compiler error.
+ * 
+ * Source: 
+ * Actual Test 4
  */

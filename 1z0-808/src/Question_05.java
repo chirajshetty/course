@@ -48,6 +48,9 @@ public class Question_05 {
  * d)
  * str: 1234 num: 5678
  * 
+ * Output: 
+ * str: 	1234	num:	5678
+ * 
  * Explanation:
  * The variable str in the try block is a local variable.
  * The Scope of Local variables is only within the methods/blocks/constructors in which they are declared or defined and are destroyed after the execution of it.  
@@ -57,4 +60,8 @@ public class Question_05 {
  * 
  * Additional Explanation:
  * https://www.tutorialspoint.com/why-variables-defined-in-try-cannot-be-used-in-catch-or-finally-in-java#:~:text=Variables%20in%20try%20block,in%20a%20block%2C%20outside%20it. 
+ * 
+ * Source : 
+ * Actual test 72 and 223
+ * 
  */
