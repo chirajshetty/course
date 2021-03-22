@@ -54,5 +54,8 @@ public class Question_18 {
  * 
  * Additional Explanation: 
  * https://www.tutorialspoint.com/java/util/arraylist_remove_object.htm
+ * 
+ * Source :
+ * Actual Test 26
  */
 

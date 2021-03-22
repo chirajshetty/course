@@ -11,11 +11,11 @@ public class Question_21 {
 	
 	public static void main(String args[]) {
 		LocalDate date1 = LocalDate.now();
-		//LocalDate date2 = LocalDate.of(8, 29, 2020);
+		LocalDate date2 = LocalDate.of(8, 29, 2020);
 		LocalDate date3 = LocalDate.parse("2020-08-29", DateTimeFormatter.ISO_DATE);
 		
 		System.out.println("Date 1 = " + date1);
-		//System.out.println("Date 2 = " + date2);
+		System.out.println("Date 2 = " + date2);
 		System.out.println("Date 3 = " + date3);
 	}
 }
@@ -42,17 +42,23 @@ public class Question_21 {
  *
  *   
  * Answer : 
- * d)
- * 0 2 4 6
+ * c)
+ * Runtime Exception
  * 
  * Explanation:
  * The line --> LocalDate date2 = LocalDate.of(8, 29, 2020); has syntax error.
  * LocalDate.of(int year, int month, int DayOfMonth) format which does not match with the above line.
  * 
- * 
+ * The code compiles as the method requires three Integer datatype parameters but throws a runtime exception since they are invalid. 
+ *  
  * 
  * Additional Explanation: 
+ * The Exception thrown is DateTimeException which extends Runtime Exception.
  * Invalid value for MonthOfYear (valid values 1 - 12): 29
+ * 
+ * Source : 
+ * Actual Test 35
+ * 
  */
 
 

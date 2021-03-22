@@ -64,6 +64,9 @@ public class Question_17 {
  * Additional Explanation: 
  * Ternary Equation 
  * 
+ * Source : 
+ * Actual Test 23
+ * 
  */
 
 
