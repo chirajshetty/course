@@ -1,4 +1,4 @@
-/*
+ /*
  * NOT COMPLETED 
  * Topic : Handling Exception
  * Code: 010
@@ -23,7 +23,7 @@ public class Question_28 {
 		catch (Exception re) {
 			System.out.println("Caught a Exception ");
 		}
-		System.out.println("Ready");
+		System.out.println("Ready"+arr);
 	}
 }
 
@@ -51,7 +51,9 @@ public class Question_28 {
  * 
  * 
  * Explanation:
- * The arraylist created here is non-generic empty arraylist. 
+ * The real issue arises in while loop. The while statement has condition set to true, hence creating an infinite loop.
+ * The infinite loop causes the arrraylist "arr" to store "String" infinite times in the memory. This throws an OutOfMemoryError which is a runtime error and cannot be caught by catch block.
+ * The following code fails at runtime and throws an error, hence option -> C)A runtime error is thrown in the thread "main" <- is the only correct.
  * 
  * 
  * 
@@ -68,4 +70,9 @@ public class Question_28 {
  * ArrayList<String> list=new ArrayList<String>();//creating new generic arraylist  
  * 
  * In a generic collection, we specify the type in angular braces. Now ArrayList is forced to have the only specified type of objects in it. If you try to add another type of object, it gives compile time error.
+ *
+ *
+ *Source :
+ *Actual Test 45 
+ *
  */
