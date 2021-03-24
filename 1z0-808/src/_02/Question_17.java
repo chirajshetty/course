@@ -1,3 +1,4 @@
+package _02;
 /*
  * Topic : Using Operators and Decision Constructors
  * Code: 02

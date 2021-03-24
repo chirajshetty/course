@@ -1,16 +1,17 @@
+package _05;
 /*
  * Topic : Working with Selected Classes with Java API
  * Code: 05
  * 
  */
 
-public class Question_12_v2 {
+public class Question_12 {
 
 	public static void main(String[] args) {
 		StringBuilder stb = new StringBuilder("OCA");
 		String str = "OCA";
 		
-		if (!stb.toString().equals(str.toString())) {
+		if (stb.toString().equals(str.toString())) {
 			System.out.println("First Match");
 		}
 		else if(stb.equals(str)) {
@@ -38,13 +39,13 @@ public class Question_12_v2 {
  * Runtime Exception
  * 
  * Answer : 
- * c)
- * No Match
+ * a)
+ *	First Match
  * 
  * Explanation:
  * The toString() method of the StringBuilder class reruns String value of the current object.
  * Therefore, the string value of stb.toString() and str.toString() are both of type String and comparable
- * and in this case are true. But because of the ! operator the condition is false.
+ * and in this case are true.
  * 
  * A point to note: 
  * equals() method is used for comparing two strings in Java since the String class overrides Object class, while Stringbuilder doesn`t override.
@@ -56,7 +57,6 @@ public class Question_12_v2 {
  * 
  * Source : 
  * Actual Test 10
- * 
  */
 
 

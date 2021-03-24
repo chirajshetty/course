@@ -1,3 +1,4 @@
+package _08;
 /*
  * Topic : Creating and using arrays
  * Code: 08
